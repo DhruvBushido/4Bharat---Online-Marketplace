@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+* {
+  margin: 0px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container1 {
+  background: #dbeafd;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: sans-serif;
+  padding: 50px 0;
+}
+
+.container1 .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container1 .heading h1 {
+  font-size: 32px;
+  color: #121a2b;
+}
+
+.container1 .heading .hr {
+  width: 80px;
+  height: 4px;
+  background: #58a6ff;
+  margin-top: 10px;
+}
+
+.container1 .carousel-box {
+  max-width: 600px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 30px 20px;
+}
+
+.container1 .carousel-box .review-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container1 .carousel-box .review-box .client-img {
+  position: relative;
+}
+
+.container1 .carousel-box .review-box .client-img .img {
+  height: 140px;
+  width: 140px;
+  border-radius: 100px;
+  -webkit-box-shadow: 8px -3px #58a6ff;
+          box-shadow: 8px -3px #58a6ff;
+  overflow: hidden;
+}
+
+.container1 .carousel-box .review-box .client-img .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container1 .carousel-box .review-box .client-img .dubble-qoute {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 50px;
+  border-radius: 100px;
+  color: #ffffff;
+  background: #58a6ff;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.container1 .carousel-box .review-box .client-detail {
+  margin: 20px 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.container1 .carousel-box .review-box .client-detail .name {
+  letter-spacing: 4px;
+  color: #121a2b;
+}
+
+.container1 .carousel-box .review-box .client-detail .title {
+  font-size: 12px;
+  color: #58a6ff;
+  margin-top: 5px;
+}
+
+.container1 .carousel-box .review-box .review {
+  margin-bottom: 20px;
+}
+
+.container1 .carousel-box .review-box .review p {
+  color: #67728b;
+  font-weight: 500;
+  text-align: center;
+  line-height: 22px;
+}
+
+.container1 .carousel-box .review-box .button-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container1 .carousel-box .review-box .button-box .prev {
+  cursor: pointer;
+}
+
+.container1 .carousel-box .review-box .button-box .prev div {
+  height: 12px;
+  width: 12px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-style: solid;
+  border-width: 0 0 3px 3px;
+  border-color: #58a6ff;
+}
+
+.container1 .carousel-box .review-box .button-box .next {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.container1 .carousel-box .review-box .button-box .next div {
+  height: 12px;
+  width: 12px;
+  border-style: solid;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-width: 3px 3px 0 0;
+  border-color: #58a6ff;
+}
+
+.container1 .carousel-box .review-box .random-btn {
+  font-size: 14px;
+  color: #58a6ff;
+  border: 2px solid #58a6ff;
+  padding: 3px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.responsive {
+  width: 50%;
+  height: auto;
+}
+.responsive1 {
+  width: 50%;
+  height: auto;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.btn {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #1e74f4;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  align-items: center;
+  font-size: auto;
+  font-style: bold;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
